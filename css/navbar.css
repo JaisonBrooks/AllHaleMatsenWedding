@@ -6,7 +6,7 @@
   ********************************** */
 .navbar-inverse {
   /*background: rgba(62, 195, 246, 0);*/
-  background: rgba(197,17,98,0);
+  background: rgba(137,0,51,0);
   border-bottom: none;
 }
 
@@ -54,7 +54,39 @@
            Big Logo
   ********************************** */
 .big-logo-row {
-  background: #4A148C;
+  /*background: #4A148C;*/
+  background: rgba(74,20,140,0.5);
+}
+/*.overlay {
+    position: relative;
+    background: rgba(74,20,140,0.5);
+    overflow: hidden;
+}
+/* You could use :after - it doesn't really matter */
+/*.overlay:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+    background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/binding_dark.png');
+    background-repeat: repeat;*/
+    /*background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;*/
+/*}*/
+.overlay {
+  margin: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/binding_dark.png') repeat;
 }
 .big-logo-row .big-logo-container {
   padding-top: 50px;
@@ -92,6 +124,6 @@
 }
 @media (min-width: 1200px) {
   .big-logo-row h1 {
-    font-size: 7em;
+    font-size: 6em;
   }
 }

@@ -1,3 +1,16 @@
+@font-face {
+    font-family: Carnival;
+    src: url('../fonts/carnevalee_freakshow.ttf');
+}
+h1 {
+  font-family: Carnival !important;
+}
+h1.header {
+  color: rgb(137,0,51);
+}
+.crazy-text {
+  font-family: Carnival !important;
+}
 p {
   font-size: 15px;
 }
@@ -10,31 +23,31 @@ p {
 }
 @media (min-width: 400px) {
   .fancy-text {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
 }
 @media (min-width: 440px) {
   .fancy-text {
-    font-size: 3em;
+    font-size: 4em;
   }
 }
 @media (min-width: 500px) {
   .fancy-text {
-    font-size: 3.5em;
+    font-size: 4.5em;
   }
 }
 @media (min-width: 630px) {
   .fancy-text {
-    font-size: 4em;
+    font-size: 5.5em;
   }
 }
 @media (min-width: 768px) {
   .fancy-text {
-    font-size: 5em;
+    font-size: 6.5em;
   }
 }
 @media (min-width: 1200px) {
   .fancy-text {
-    font-size: 7em;
+    font-size: 8em;
   }
 }
