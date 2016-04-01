@@ -6,13 +6,151 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel='stylesheet' href="css/bootstrap.min.css">
 		<link rel='stylesheet' href="css/bootstrap-theme-cyborg.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/jquery.fullPage.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- script type="text/javascript" src="vendor/jquery.fullPage.min.js"></script -->
 	</head>
 	<body>
-		<div class="jumbotron">
-			<div class="container">
-				<h1>All Hale Matsen Wedding</h1>
-				<p>There will be tons of content</p>
-			</div>
-		</div>
+      <!-- Fixed navbar -->
+       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <div class="container">
+           <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <div class="small-logo-container">
+               <a class="small-logo" href="#">All Hale Matsen Wedding</a>
+             </div>
+           </div>
+           <div class="navbar-collapse collapse">
+          
+             <ul class="nav navbar-nav navbar-right">
+               <li class="active"><a href="#welcome">Welcome</a></li>
+               <li><a href="#story">Story</a></li>
+               <li><a href="#event">Event</a></li>
+               <li><a href="#gifts">Gifts</a></li>
+               <li><a href="#contact_us">Contact Us</a></li>
+             </ul>
+           </div><!--/.nav-collapse -->
+         </div>
+       </div>
+
+       <div class="container-fluid big-logo-row">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12 big-logo-container">
+               <h1 class="big-logo">All Hale Matsen Wedding</h1>
+             </div><!--/.col-xs-12 -->
+           </div><!--/.row -->
+         </div><!--/.container -->
+       </div><!--/.container-fluid -->
+
+       <div class="container container-padded" id="welcome">
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+             <h1 class="text-center fancy-text">Welcome</h1>
+             <p>Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+             <p>Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
+           </div><!--/.col-xs-12 -->
+         </div><!--/.row -->
+       </div><!--/.container -->
+       
+       <div class="container container-padded" id="story">
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+             <h1 class="text-center fancy-text">Our Story</h1>
+             <p>Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+             <p>Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
+             <p>Sequi facilis ea dolor asperiores quibusdam eveniet optio corporis et accusantium voluptatem architecto quis iste recusandae molestias dolorem soluta ex blanditiis illo impedit laborum iusto? Iure sapiente eos molestiae est?</p>
+             <br/><br/>
+             <p>Accusamus dicta consequatur quos ipsum rerum tempora assumenda ex excepturi itaque soluta magnam debitis voluptatibus neque eos porro. Neque tempora ea beatae delectus facere quas voluptas accusamus maxime enim consequuntur.</p>
+             <p>Saepe obcaecati facilis dolore numquam nam quod laudantium. Rerum esse voluptas eum aut porro beatae adipisci exercitationem ab voluptatum corporis quas placeat sapiente nisi ut officia eaque debitis. Corrupti eveniet!</p>
+             <p>Eius natus numquam tempore alias ipsam commodi aut similique corporis beatae velit maxime obcaecati voluptatibus cum repudiandae minus inventore doloremque optio saepe nihil eum reprehenderit quas consequuntur perspiciatis quo quam.</p>
+           </div><!--/.col-xs-12 -->
+         </div><!--/.row -->
+       </div><!--/.container -->
+       
+       <div class="container container-padded" id="event">
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+             <h1 class="text-center fancy-text">The Event</h1>
+             <p>Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+             <p>Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
+             
+           </div><!--/.col-xs-12 -->
+         </div><!--/.row -->
+       </div><!--/.container -->
+       
+       <div class="container container-padded" id="gifts">
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+             <h1 class="text-center fancy-text">Gifts</h1>
+             <p>Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+             <p>Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
+           </div><!--/.col-xs-12 -->
+         </div><!--/.row -->
+       </div><!--/.container -->
+       
+       <div class="container container-padded" id="contact_us">
+         <div class="row">
+           <div class="col-sm-8 col-sm-offset-2">
+             <h1 class="text-center fancy-text">Contact Us</h1>
+             <p>Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+             <form role="form">
+               <div class="container">
+                 <div class="row">
+                   <div class="col-md-6">
+                     <div class="form-group">
+                       <label>Your Name</label>
+                       <input type="text" class="form-control" placeholder="Value" />
+                     </div>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                     <div class="form-group">
+                       <label>Your Email Address</label>
+                       <input type="email" class="form-control" placeholder="Value" />
+                     </div>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                     <div class="form-group">
+                       <label>Phone Number</label>
+                       <input type="text" class="form-control" placeholder="Value" />
+                     </div>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                     <div class="form-group">
+                       <label>Message</label>
+                       <textarea class="form-control"></textarea>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-6">
+                     <div class="form-group">
+                       <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <br/>
+             </form>
+           </div><!--/.col-xs-12 -->
+         </div><!--/.row -->
+       </div>
+       
 	</body>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </html>
