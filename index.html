@@ -14,7 +14,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- script type="text/javascript" src="vendor/jquery.fullPage.min.js"></script -->
 	</head>
-	<body id="body">
+	<body>
       <!-- Fixed navbar -->
        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
          <div class="container">
@@ -26,234 +26,238 @@
                <span class="icon-bar"></span>
              </button>
              <div class="small-logo-container">
-               <a class="crazy-text small-logo scroll" href="#body">All Hale Matsen Wedding</a>
+               <a class="crazy-text small-logo scroll" onclick="toTop()">All Hale Matsen Wedding</a>
              </div>
            </div>
            <div class="navbar-collapse collapse">
-          
              <ul class="nav navbar-nav navbar-right">
-               <li><a class="crazy-text scroll" href="#welcome">WELCOME</a></li>
-               <li><a class="crazy-text scroll" href="#story">STORY</a></li>
-               <li><a class="crazy-text scroll" href="#event">EVENT</a></li>
-               <li><a class="crazy-text scroll" href="#gifts">GIFTS</a></li>
-               <li><a class="crazy-text scroll" href="#contact_us">CONTACT</a></li>
+               <li><a data-toggle="collapse" data-target=".nav-collapse.in" class="crazy-text scroll" href="#welcome">WELCOME</a></li>
+               <li><a data-toggle="collapse" data-target=".nav-collapse.in" class="crazy-text scroll" href="#story">STORY</a></li>
+               <li><a data-toggle="collapse" data-target=".nav-collapse.in" class="crazy-text scroll" href="#event">EVENT</a></li>
+               <li><a data-toggle="collapse" data-target=".nav-collapse.in" class="crazy-text scroll" href="#gifts">GIFTS</a></li>
+               <li><a data-toggle="collapse" data-target=".nav-collapse.in" class="crazy-text scroll" href="#contact_us">CONTACT</a></li>
              </ul>
            </div><!--/.nav-collapse -->
          </div>
        </div>
 
-       <div class="container-fluid big-logo-row">
-         <div class="overlay">
-           <div class="container">
-             <div class="row">
-               <div class="col-xs-12 big-logo-container">
-                 <h1 class="big-logo header">All Hale Matsen Wedding</h1>
-               </div><!--/.col-xs-12 -->
-             </div><!--/.row -->
-           </div><!--/.container -->
-         </div><!-- /overlay -->
-       </div><!--/.container-fluid -->
-
-       <div class="container container-padded" id="welcome">
-         <div class="row">
-           <div class="col-sm-10 col-sm-offset-1">
-             <h1 class="text-center fancy-text">Welcome</h1>
-             <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
-             <div id="photos_of_us" class="carousel slide" data-ride="carousel" data-interval="5000">
-               <!-- Indicators -->
-               <ol class="carousel-indicators">
-                 <li data-target="#photos_of_us" data-slide-to="0" class="active"></li>
-                 <li data-target="#photos_of_us" data-slide-to="1"></li>
-                 <li data-target="#photos_of_us" data-slide-to="2"></li>
-                 <li data-target="#photos_of_us" data-slide-to="3"></li>
-                 <li data-target="#photos_of_us" data-slide-to="4"></li>
-               </ol>
-
-               <!-- Wrapper for slides -->
-               <div class="carousel-inner">
-                 <div class="item active">
-                   <img style="max-height: 840px; max-width: 100%;" src="images/couple_1.jpg" alt="...">
-                   <div class="carousel-caption">
-                     ...
-                   </div>
-                 </div>
-                 <div class="item">
-                   <img style="max-height: 840px; max-width: 100%;" src="images/couple_2.jpg" alt="...">
-                   <div class="carousel-caption">
-                     ...
-                   </div>
-                 </div>
-                 <div class="item">
-                   <img style="max-height: 840px; max-width: 100%;" src="images/couple_3.jpg" alt="..." >
-                   <div class="carousel-caption">
-                     ...
-                   </div>
-                 </div>
-                 <div class="item">
-                   <img style="max-height: 840px; max-width: 100%;" src="images/couple_4.jpg" alt="...">
-                   <div class="carousel-caption">
-                     ...
-                   </div>
-                 </div>
-                 <div class="item">
-                   <img style="max-height: 840px; max-width: 100%;" src="images/couple_5.jpg" alt="..." ><!-- width="100%"-->
-                   <div class="carousel-caption">
-                     ...
-                   </div>
-                 </div>
-               </div>
-
-               <!-- Controls -->
-               <a class="left carousel-control" href="#photos_of_us" role="button" data-slide="prev">
-                 <span class="glyphicon glyphicon-chevron-left"></span>
-               </a>
-               <a class="right carousel-control" href="#photos_of_us" role="button" data-slide="next">
-                 <span class="glyphicon glyphicon-chevron-right"></span>
-               </a>
-             </div>
-             
-           </div><!--/.col-sm-10 -->
-         </div><!--/.row -->
-       </div><!--/.container -->
-       
-       <div class="container container-padded" id="story">
-         <div class="row">
-           <div class="col-sm-10 col-sm-offset-1">
-             <h1 class="text-center fancy-text">Our Story</h1>
-             <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
-             <p class="lead">Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
-             <br/><br/>
-             <p class="lead">Accusamus dicta consequatur quos ipsum rerum tempora assumenda ex excepturi itaque soluta magnam debitis voluptatibus neque eos porro. Neque tempora ea beatae delectus facere quas voluptas accusamus maxime enim consequuntur.</p>
-           </div><!--/.col-xs-12 -->
-         </div><!--/.row -->
-       </div><!--/.container -->
-       
-       <div class="container container-padded" id="event">
-         <div class="row">
-           <div class="col-sm-10 col-sm-offset-1">
-             <h1 class="text-center fancy-text">The Event</h1>
-             <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
-             <p class="lead">Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
-             
-           </div><!--/.col-xs-12 -->
-         </div><!--/.row -->
-       </div><!--/.container -->
-       
-       <div class="container container-padded" id="gifts">
-         <div class="row">
-           <div class="col-sm-10 col-sm-offset-1">
-             <h1 class="text-center fancy-text">Gifts</h1>
-             <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
-             <p class="lead">Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
-           </div><!--/.col-xs-12 -->
-         </div><!--/.row -->
-       </div><!--/.container -->
-       
-       <div class="container container-padded" id="contact_us">
-         <div class="row">
-           <div class="col-sm-10 col-sm-offset-1">
-             <h1 class="text-center fancy-text">Contact Us</h1>
-             <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+       <div>
+         <div class="container-fluid big-logo-row">
+           <div class="overlay">
              <div class="container">
                <div class="row">
-                 <div class="cform" id="contact-form">
-                   <div class="col-sm-6 col-sm-offset-2">
-                     <div class="sendmessage" id="sendmessage" style="display:none; padding:24px; font-size: 18px;">
-                         Your message has been sent and we will get back to you shortly. Thank you!
-                      </div>
-                    </div>
-                    
-    	                <form method="post" role="form" class="contactForm" id="contactForm">
-                         <div class="col-sm-6 col-sm-offset-2">
-                           <div class="form-group">
-                             <label for="name">Your Name</label>
-                             <input type="text" name="name" class="form-control" id="name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
-                             <div class="validation"></div>
-                           </div>
-                         </div>
-                         <div class="col-sm-6 col-sm-offset-2">
-                           <div class="form-group">
-                             <label for="email">Your Email</label>
-                             <input type="email" class="form-control" name="email" id="email"  data-rule="email" data-msg="Please enter a valid email" />
-                             <div class="validation"></div>
-                           </div>
-                         </div>
-                         <div class="col-sm-6 col-sm-offset-2">
-                           <div class="form-group">
-                             <label for="subject">Subject</label>
-                             <input type="text" class="form-control" name="subject" id="subject"  data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
-                             <div class="validation"></div>
-                           </div>
-                         </div>
-                         <div class="col-sm-6 col-sm-offset-2">
-                           <div class="form-group">
-                             <label for="message">Message</label>
-                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-                             <div class="validation"></div>
-                           </div>
-                         </div>
-                         <div class="col-sm-6 col-sm-offset-2">
-                           <div class="form-group">
-                           <button type="submit" class="btn btn-default pull-left">SEND MESSAGE</button>
-                         </div>
-                         </div>
-                     </form>
+                 <div class="col-xs-12 big-logo-container">
+                   <h1 class="big-logo header">All Hale Matsen Wedding</h1>
+                 </div><!--/.col-xs-12 -->
+               </div><!--/.row -->
+             </div><!--/.container -->
+           </div><!-- /overlay -->
+         </div><!--/.container-fluid -->
+
+         <div class="container container-padded" id="welcome">
+           <div class="row">
+             <div class="col-sm-10 col-sm-offset-1">
+               <h1 class="text-center fancy-text">Welcome</h1>
+               <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+               <div id="photos_of_us" class="carousel slide" data-ride="carousel" data-interval="5000">
+                 <!-- Indicators -->
+                 <ol class="carousel-indicators">
+                   <li data-target="#photos_of_us" data-slide-to="0" class="active"></li>
+                   <li data-target="#photos_of_us" data-slide-to="1"></li>
+                   <li data-target="#photos_of_us" data-slide-to="2"></li>
+                   <li data-target="#photos_of_us" data-slide-to="3"></li>
+                   <li data-target="#photos_of_us" data-slide-to="4"></li>
+                 </ol>
+
+                 <!-- Wrapper for slides -->
+                 <div class="carousel-inner">
+                   <div class="item active">
+                     <img style="max-height: 840px; max-width: 100%;" src="images/couple_1.jpg" alt="...">
+                     <div class="carousel-caption">
+                       ...
+                     </div>
+                   </div>
+                   <div class="item">
+                     <img style="max-height: 840px; max-width: 100%;" src="images/couple_2.jpg" alt="...">
+                     <div class="carousel-caption">
+                       ...
+                     </div>
+                   </div>
+                   <div class="item">
+                     <img style="max-height: 840px; max-width: 100%;" src="images/couple_3.jpg" alt="..." >
+                     <div class="carousel-caption">
+                       ...
+                     </div>
+                   </div>
+                   <div class="item">
+                     <img style="max-height: 840px; max-width: 100%;" src="images/couple_4.jpg" alt="...">
+                     <div class="carousel-caption">
+                       ...
+                     </div>
+                   </div>
+                   <div class="item">
+                     <img style="max-height: 840px; max-width: 100%;" src="images/couple_5.jpg" alt="..." ><!-- width="100%"-->
+                     <div class="carousel-caption">
+                       ...
+                     </div>
+                   </div>
                  </div>
+
+                 <!-- Controls -->
+                 <a class="left carousel-control" href="#photos_of_us" role="button" data-slide="prev">
+                   <span class="glyphicon glyphicon-chevron-left"></span>
+                 </a>
+                 <a class="right carousel-control" href="#photos_of_us" role="button" data-slide="next">
+                   <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
                </div>
-             </div>
-             <!-- <form role="form">
+             
+             </div><!--/.col-sm-10 -->
+           </div><!--/.row -->
+         </div><!--/.container -->
+       
+         <div class="container container-padded" id="story">
+           <div class="row">
+             <div class="col-sm-10 col-sm-offset-1">
+               <h1 class="text-center fancy-text">Our Story</h1>
+               <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+               <p class="lead">Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
+               <br/><br/>
+               <p class="lead">Accusamus dicta consequatur quos ipsum rerum tempora assumenda ex excepturi itaque soluta magnam debitis voluptatibus neque eos porro. Neque tempora ea beatae delectus facere quas voluptas accusamus maxime enim consequuntur.</p>
+             </div><!--/.col-xs-12 -->
+           </div><!--/.row -->
+         </div><!--/.container -->
+       
+         <div class="container container-padded" id="event">
+           <div class="row">
+             <div class="col-sm-10 col-sm-offset-1">
+               <h1 class="text-center fancy-text">The Event</h1>
+               <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+               <iframe align="center"src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d1023.343649671677!2d-116.9754442!3d43.6727418!3m2!1i1024!2i768!4f13.1!4m9!1i0!3e6!4m0!4m5!1s0x54afcf6feb7fd94f%3A0xc69602c0e1f411fa!2sWild+Heart+Springs%2C+29117+Peckham+Rd%2C+Wilder%2C+ID+83676!3m2!1d43.672447999999996!2d-116.97406699999999!5e1!3m2!1sen!2sus!4v1405200091426" width="auto" height="400" frameborder="0" style="border:0; width: 100%;"></iframe>
+               <br/><br/>
+               <p class="lead">Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
+             
+             </div><!--/.col-xs-12 -->
+           </div><!--/.row -->
+         </div><!--/.container -->
+       
+         <div class="container container-padded" id="gifts">
+           <div class="row">
+             <div class="col-sm-10 col-sm-offset-1">
+               <h1 class="text-center fancy-text">Gifts</h1>
+               <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+               <p class="lead">Consectetur incidunt voluptatibus ipsa nisi esse eos deleniti repudiandae at quo sit praesentium nemo optio perspiciatis sequi quaerat voluptates minus reprehenderit doloremque accusamus et quisquam nesciunt sunt consequatur explicabo excepturi!</p>
+             </div><!--/.col-xs-12 -->
+           </div><!--/.row -->
+         </div><!--/.container -->
+       
+         <div class="container container-padded" id="contact_us">
+           <div class="row">
+             <div class="col-sm-10 col-sm-offset-1">
+               <h1 class="text-center fancy-text">Contact Us</h1>
+               <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
                <div class="container">
                  <div class="row">
-                   <div class="col-sm-6 col-sm-offset-1">
-                     <div class="form-group">
-                       <label>Your Name</label>
-                       <input type="text" class="form-control" placeholder="Value" />
-                     </div>
-                   </div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-6 col-sm-offset-1">
-                     <div class="form-group">
-                       <label>Your Email Address</label>
-                       <input type="email" class="form-control" placeholder="Value" />
-                     </div>
-                   </div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-6 col-sm-offset-1">
-                     <div class="form-group">
-                       <label>Phone Number</label>
-                       <input type="text" class="form-control" placeholder="Value" />
-                     </div>
-                   </div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-6 col-sm-offset-1">
-                     <div class="form-group">
-                       <label>Message</label>
-                       <textarea class="form-control"></textarea>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="row">
-                   <div class="col-sm-6 col-sm-offset-1">
-                     <div class="form-group">
-                       <button type="submit" class="btn btn-default btn-lg">Submit</button>
-                     </div>
+                   <div class="cform" id="contact-form">
+                     <div class="col-sm-6 col-sm-offset-2">
+                       <div class="sendmessage" id="sendmessage" style="display:none; padding:24px; font-size: 18px;">
+                           Your message has been sent and we will get back to you shortly. Thank you!
+                        </div>
+                      </div>
+                    
+      	                <form method="post" role="form" class="contactForm" id="contactForm">
+                           <div class="col-sm-6 col-sm-offset-2">
+                             <div class="form-group">
+                               <label for="name">Your Name</label>
+                               <input type="text" name="name" class="form-control" id="name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+                               <div class="validation"></div>
+                             </div>
+                           </div>
+                           <div class="col-sm-6 col-sm-offset-2">
+                             <div class="form-group">
+                               <label for="email">Your Email</label>
+                               <input type="email" class="form-control" name="email" id="email"  data-rule="email" data-msg="Please enter a valid email" />
+                               <div class="validation"></div>
+                             </div>
+                           </div>
+                           <div class="col-sm-6 col-sm-offset-2">
+                             <div class="form-group">
+                               <label for="subject">Subject</label>
+                               <input type="text" class="form-control" name="subject" id="subject"  data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+                               <div class="validation"></div>
+                             </div>
+                           </div>
+                           <div class="col-sm-6 col-sm-offset-2">
+                             <div class="form-group">
+                               <label for="message">Message</label>
+                               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                               <div class="validation"></div>
+                             </div>
+                           </div>
+                           <div class="col-sm-6 col-sm-offset-2">
+                             <div class="form-group">
+                             <button type="submit" class="btn btn-default pull-left">SEND MESSAGE</button>
+                           </div>
+                           </div>
+                       </form>
                    </div>
                  </div>
                </div>
-               <br/>
-             </form> -->
-           </div><!--/.col-xs-12 -->
-         </div><!--/.row -->
-       </div>
-       
-       <footer>
-         <div class="container">
-           <p class="text-right text-muted">&copy; 2016 Jaison Brooks</p>
+               <!-- <form role="form">
+                 <div class="container">
+                   <div class="row">
+                     <div class="col-sm-6 col-sm-offset-1">
+                       <div class="form-group">
+                         <label>Your Name</label>
+                         <input type="text" class="form-control" placeholder="Value" />
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-sm-6 col-sm-offset-1">
+                       <div class="form-group">
+                         <label>Your Email Address</label>
+                         <input type="email" class="form-control" placeholder="Value" />
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-sm-6 col-sm-offset-1">
+                       <div class="form-group">
+                         <label>Phone Number</label>
+                         <input type="text" class="form-control" placeholder="Value" />
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-sm-6 col-sm-offset-1">
+                       <div class="form-group">
+                         <label>Message</label>
+                         <textarea class="form-control"></textarea>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="col-sm-6 col-sm-offset-1">
+                       <div class="form-group">
+                         <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <br/>
+               </form> -->
+             </div><!--/.col-xs-12 -->
+           </div><!--/.row -->
          </div>
-       </footer>
+       
+         <footer>
+           <div class="container">
+             <p class="text-right text-muted">&copy; 2016 Jaison Brooks</p>
+           </div>
+         </footer>
+         
+       </div>
        
 	</body>
   <script type="text/javascript" src="js/navbar.js"></script>

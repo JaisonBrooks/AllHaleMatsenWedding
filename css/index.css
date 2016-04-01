@@ -6,7 +6,9 @@ h1 {
   font-family: Carnival !important;
 }
 h1.header {
-  color: rgb(137,0,51);
+  /* MAROON 137,0,51 */
+  /* PURPLE MED 97, 31, 106 */
+  color: rgb(97,31,106);
 }
 .crazy-text {
   font-family: Carnival !important;
@@ -23,31 +25,72 @@ p {
 }
 @media (min-width: 400px) {
   .fancy-text {
-    font-size: 3.5em;
+    font-size: 3.75em;
+  }
+  .container-padded {
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
 @media (min-width: 440px) {
   .fancy-text {
     font-size: 4em;
   }
+  .container-padded {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
 }
 @media (min-width: 500px) {
   .fancy-text {
     font-size: 4.5em;
+  }
+  .container-padded {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 @media (min-width: 630px) {
   .fancy-text {
     font-size: 5.5em;
   }
+  .container-padded {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 @media (min-width: 768px) {
   .fancy-text {
     font-size: 6.5em;
+  }
+  .container-padded {
+    padding-top: 42px;
+    padding-bottom: 42px;
   }
 }
 @media (min-width: 1200px) {
   .fancy-text {
     font-size: 8em;
   }
+  .container-padded {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+input {
+  background: rgba(97, 31, 106, 0.45) !important;
+  border-color: #601F6A !important;
+}
+textarea {
+  background: rgba(97, 31, 106, 0.45) !important;
+  border-color: #601F6A !important;
+}
+.overlay {
+  margin: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/binding_dark.png') repeat;
+}
+iframe{
+    pointer-events: none;
 }

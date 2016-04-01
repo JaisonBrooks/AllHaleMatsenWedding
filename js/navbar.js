@@ -1,5 +1,9 @@
 $(window).scroll(function() {
-  var navbarColor = "137,0,51";//color attr for rgba
+  // MAROON 137,0,51
+  // GREEN MED 0, 88, 30
+  // GREEN DARK 0,49,17
+  // PURPLE 46, 1, 52
+  var navbarColor = "46,1,52";//color attr for rgba
   var smallLogoHeight = $('.small-logo').height();
   var bigLogoHeight = $('.big-logo').height();
   var navbarHeight = $('.navbar').height(); 

@@ -6,7 +6,14 @@
   ********************************** */
 .navbar-inverse {
   /*background: rgba(62, 195, 246, 0);*/
-  background: rgba(137,0,51,0);
+  
+  /* MAROON 137,0,51 */
+  /* GREEN 0, 49, 17 */
+  /* PURPLE  46, 1, 52 */
+  /* PURPLE MED 69, 9, 77 */
+  /* PURPLE LIGHT 97, 31, 106 */
+
+  background: rgba(46, 1, 52,0); 
   border-bottom: none;
 }
 
@@ -20,7 +27,16 @@
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(0,0,0, 0.8);
+    color: #F8F8F8 !important;
+  }
+  button.navbar-toggle {
+    float:left !important;
+    margin-left: 4px !important;
+  }
+  .big-logo-row .big-logo-container {
+      padding-top: 5px !important;
+      text-align: right !important;
   }
 }
 
@@ -45,8 +61,9 @@
   color: white;
   font-size: 2.5em;
   padding-bottom: 2px;
+  transition: color 0.35s ease;
 }
-.small-logo:hover, .small-logo:focus {
+.small-logo:hover { /* .small-logo:focus */
   color:black;
 }
 
@@ -55,38 +72,8 @@
   ********************************** */
 .big-logo-row {
   /*background: #4A148C;*/
-  background: rgba(74,20,140,0.5);
-}
-/*.overlay {
-    position: relative;
-    background: rgba(74,20,140,0.5);
-    overflow: hidden;
-}
-/* You could use :after - it doesn't really matter */
-/*.overlay:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.2;
-    background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/binding_dark.png');
-    background-repeat: repeat;*/
-    /*background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;*/
-/*}*/
-.overlay {
-  margin: 0;
-  margin-left: -15px;
-  margin-right: -15px;
-  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/binding_dark.png') repeat;
+  /* MAROON 74,20,140 */
+  background: rgb(46, 1, 52);
 }
 .big-logo-row .big-logo-container {
   padding-top: 50px;
