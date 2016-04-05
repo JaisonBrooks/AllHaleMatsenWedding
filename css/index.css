@@ -1,3 +1,6 @@
+body {
+  background: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/1487/1487037.png?1305414037) repeat;
+}
 h1 {
   font-family: 'Great Vibes', cursive !important;
 }
@@ -140,4 +143,38 @@ hr.style17:after {
 }
 .no-m {
   margin: 0 !important;
+}
+.btn-primary {
+  
+}
+.btn-default {
+    color: #ffffff;
+    background: #804B87;
+    border-color: #804B87;
+}
+.btn-default:hover {
+    color: #ffffff;
+    background-color: #611F6A;
+    border-color: #571b5f;
+}
+.btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    background-image: none;
+}
+.btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #611F6A;
+    border-color: #571b5f;
+}
+.btn-default:focus, .btn-default.focus {
+    color: #ffffff;
+    background-color: #611F6A;
+    border-color: #4d1854;
+}
+.btn-default:active:hover, .btn-default.active:hover, .open>.dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus {
+    color: #ffffff;
+    background-color: #611F6A;
+    border-color: #4d1854;
+}
+input {
+  color: #EEE !important;
 }
