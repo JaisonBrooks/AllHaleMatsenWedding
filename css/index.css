@@ -1,17 +1,19 @@
-@font-face {
-    font-family: Carnival;
-    src: url('../fonts/carnevalee_freakshow.ttf');
-}
 h1 {
-  font-family: Carnival !important;
+  font-family: 'Great Vibes', cursive !important;
 }
 h1.header {
   /* MAROON 137,0,51 */
   /* PURPLE MED 97, 31, 106 */
-  color: rgb(97,31,106);
+  color: rgb(128,75,135);
 }
 .crazy-text {
-  font-family: Carnival !important;
+  font-family: 'Great Vibes', cursive !important;
+}
+.tangerine {
+  font-family: 'Tangerine', cursive !important;
+}
+.nav-text {
+  font-size: 28px !important;
 }
 p {
   font-size: 15px;
@@ -20,7 +22,7 @@ p {
   padding-top: 48px;
   padding-bottom: 48px;
 }
-.fancy-text {
+.fancy-text  {
   font-family: 'Tangerine', cursive !important;
 }
 @media (min-width: 400px) {
@@ -54,6 +56,7 @@ p {
   .fancy-text {
     font-size: 5.5em;
   }
+  
   .container-padded {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -93,4 +96,40 @@ textarea {
 }
 iframe{
     pointer-events: none;
+}
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: rgba(100,100,100,0.75); /* #8c8b8b; */
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+}  
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: rgba(100,100,100,0.75); /*#8c8b8b; */
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+hr.style17 {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+hr.style17:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: inherit;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
 }

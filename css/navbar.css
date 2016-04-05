@@ -41,7 +41,7 @@
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #CCC;
+  color: #DDDDDD;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -58,13 +58,13 @@
 }
 
 .small-logo {
-  color: white;
+  color: #E4E4E4;
   font-size: 2.5em;
   padding-bottom: 2px;
   transition: color 0.35s ease;
 }
 .small-logo:hover { /* .small-logo:focus */
-  color:black;
+  color:#FFFFFF;
 }
 
 /* *********************************
@@ -105,12 +105,12 @@
 }
 @media (min-width: 768px) {
   .big-logo-row h1 {
-    font-size: 5em;
+    font-size: 4.5em;
     padding-bottom: 30px;
   }
 }
 @media (min-width: 1200px) {
   .big-logo-row h1 {
-    font-size: 6em;
+    font-size: 5.25em;
   }
 }
