@@ -85,22 +85,34 @@
 }
 @media (min-width: 400px) {
   .big-logo-row h1 {
-    font-size: 2.5em;
+    font-size: 2.45em;
+  }
+  .small-logo {
+    font-size: 2em;
   }
 }
 @media (min-width: 440px) {
   .big-logo-row h1 {
-    font-size: 3em;
+    font-size: 2.675em;
+  }
+  .small-logo {
+    font-size: 2.5em;
   }
 }
 @media (min-width: 500px) {
   .big-logo-row h1 {
-    font-size: 3.5em;
+    font-size: 3.25em;
+  }
+  .small-logo {
+    font-size: 2.5em;
   }
 }
 @media (min-width: 630px) {
   .big-logo-row h1 {
     font-size: 4em;
+  }
+  .small-logo {
+    font-size: 2.5em;
   }
 }
 @media (min-width: 768px) {
@@ -108,9 +120,15 @@
     font-size: 4.5em;
     padding-bottom: 30px;
   }
+  .small-logo {
+    font-size: 2.5em;
+  }
 }
 @media (min-width: 1200px) {
   .big-logo-row h1 {
     font-size: 5.25em;
+  }
+  .small-logo {
+    font-size: 2.5em;
   }
 }

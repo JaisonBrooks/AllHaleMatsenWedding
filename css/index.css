@@ -1,6 +1,6 @@
 body {
-  background: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/1487/1487037.png?1305414037) repeat;
-
+  /*background: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/1487/1487037.png?1305414037) repeat;*/
+  background: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/5251/5251420.png?1459962817') repeat;
 }
 h1 {
   font-family: 'Great Vibes', cursive !important;
@@ -102,9 +102,9 @@ textarea {
   background: rgba(0,0,0,0.85);
   /*background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/binding_dark.png') repeat;*/
 }
-iframe{
+/*iframe{
     pointer-events: none;
-}
+}*/
 hr.style18 { 
   height: 30px; 
   border-style: solid; 
@@ -186,3 +186,21 @@ input {
   border-radius: 32px;
   border: solid 3px #111111;
 }
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/*iframe {
+  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}*/
