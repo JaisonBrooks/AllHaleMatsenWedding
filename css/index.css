@@ -1,7 +1,7 @@
 body {
-  /*background: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/1487/1487037.png?1305414037) repeat;*/
-  background: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/5251/5251420.png?1459962817') repeat;
-  font-family: 'Lobster Two', serif;
+  background: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/1487/1487037.png?1305414037) repeat;
+  /*background: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/5251/5251420.png?1459962817') repeat;*/
+  font-family: 'Smythe', serif;
 }
 h1 {
   font-family: 'Great Vibes', cursive !important;
@@ -21,10 +21,10 @@ h1.header {
   font-size: 28px !important;
 }
 p {
-  font-size: 20px !important;
+  font-size: 21px !important;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  color: #999999;
+  color: #9a9a9a;
 }
 .container-padded {
   padding-top: 48px;
