@@ -8,16 +8,100 @@
     <link rel='stylesheet' href="css/bootstrap-theme-cyborg.min.css">
     <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+    <!-- <link rel="stylesheet" type="text/css" href="css/navbar2.css" /> -->
+    <style>
+    /*.navbar-simple .brand {
+       padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .navbar-simple .navbar-inner {
+      background: #fff;
+      filter: none !important;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+      -moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+      -webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+      border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    .navbar-simple .navbar-inner .nav {
+      float: right;
+    }
+    .navbar-simple .navbar-inner .nav li a {
+      background: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      color: #777;
+      font-size: 13px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-weight: 600;
+    }
+    .navbar-simple .navbar-inner .nav li a:hover {
+      background: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      color: #bf3604;
+    }
+    .navbar-simple .navbar-inner .nav li.active a {
+      color: #bf3604;
+    }*/
+    .navbar {
+      background: rgb(46, 1, 52) !important;
+    }
+    .navbar-brand {
+      font-size: 2em;
+    }
+    </style>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script type="text/javascript" src="js/jquery.1.11.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- script type="text/javascript" src="vendor/jquery.fullPage.min.js"></script -->
 	</head>
 	<body>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand crazy-text" href="#">All Hale * Matsen Wedding</a>
+          <!-- <div class="small-logo-container">
+            <a class="crazy-text small-logo scroll" href="#">All Hale Matsen Wedding</a>
+          </div> -->
+        </div>
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a data-toggle="collapse" data-target=".nav-collapse" class="tangerine nav-text scroll" href="#welcome">Welcome</a></li>
+            <li><a data-toggle="collapse" data-target=".nav-collapse" class="tangerine nav-text scroll" href="#story">Story</a></li>
+            <li><a data-toggle="collapse" data-target=".nav-collapse" class="tangerine nav-text scroll" href="#event">Event</a></li>
+            <li><a data-toggle="collapse" data-target=".nav-collapse" class="tangerine nav-text scroll" href="#rsvp">Rsvp</a></li>
+            <li><a data-toggle="collapse" data-target=".nav-collapse" class="tangerine nav-text scroll" href="#gifts">Gifts</a></li>
+            <li><a data-toggle="collapse" data-target=".nav-collapse" class="tangerine nav-text scroll" href="#contact_us">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid big-logo-row">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 big-logo-container">
+            <h1 class="big-logo">All Hale Matsen Wedding</h1>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    
       <!-- Fixed navbar -->
-       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+       <!-- <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
          <div class="container">
            <div class="navbar-header">
              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -40,20 +124,20 @@
                <li><a data-toggle="collapse" data-target=".nav-collapse.in" class="tangerine nav-text scroll" href="#contact_us">Contact</a></li>
              </ul>
            </div><!--/.nav-collapse -->
-         </div>
-       </div>
+         <!-- </div>
+       </div> -->
 
-         <div class="container-fluid big-logo-row">
+         <!-- <div class="container-fluid big-logo-row">
            <div class="overlay">
              <div class="container">
                <div class="row">
                  <div class="col-xs-12 big-logo-container">
                    <h1 class="big-logo header">All Hale Matsen Wedding</h1>
                  </div><!--/.col-xs-12 -->
-               </div><!--/.row -->
-             </div><!--/.container -->
-           </div><!-- /overlay -->
-         </div><!--/.container-fluid -->
+               <!-- </div>
+             </div>
+           </div>
+         </div> -->
 
          <div class="container container-padded" id="welcome">
            <div class="row">
@@ -127,9 +211,9 @@
                <p class="lead">Our story begins on a moon lit night on the planet Pandora where two strangers meet for the first time. Soon after introductions are made, the budding couple begins their journey of chaos and wanton destruction, filling the air with the screams of dying Psychos, the ozone from Bandit's laser weapons, and Clap Trap's inane chatter. For the uninitiated, this was the scene for our first date:  Playing "Borderlands 2" on Xbox Live.</p>
                <h3 class="fancy-text">His Story</h3>
                <p class="lead">I'm actually going to take my story back in time, before we met, to better tell my story. Obviously by the description of our first date Jess and I met online. The thing that most people may not be aware of is that I had given up on dating just before we met. Apparently Someone Else had other ideas for me. You see, while I was closing out my account, I came across a profile that intrigued me. Here was a girl who had no pictures that showed her face and very little beyond a vague idea of her body shape, but what she wrote resonated within me and inspired me to give it one last go. So for the next couple weeks we chatted a bit online, and when I finally got the nerve to ask her out.... She shot me down! Here was, as far as I could tell, an intelligent confident woman telling me that as cool as I seemed to be, anyone can put a front on for the internet, so No I could not have her phone number and No I could not pick her up. Well....damn... I guess it was time to get creative! In our conversations, it had come up that we were both gamers and shared a special love for the Borderlands franchise, so the idea of an Xbox Live session was born and thus our first date. So now that we are caught up to the beginning, let’s move forward to the future a bit.<br/><br/>
-Jess and I had lots of fun together doing everything from card and board games with her family to long motorcycle rides, and of course video games, but always I held back a little bit, believing things that were too good had to end, right? Well, then she dropped the bomb. Her dream had always been to serve her country, like her father before her and then her brother, and she was going to join the Marines. I'll be honest: I had no idea how to process that or what it would mean for us as a couple. The one thing I did know, was that I had to help, I had to support her. So the following week I began training her at the gym in the early morning hours and the weeks flew by. Pretty soon it was time for her to ship out to boot camp and we said one of the hardest goodbyes I’ve ever had to say.
-	At the beginning I had told her not to expect too much from me letter wise, but pretty soon I found myself writing each day and it was here in almost journal-like fashion that I was finally able to say the things I hadn’t been able to say out loud to her, let alone to myself. It was also during this time that I got to know Rita and Scott, Jessica’s parents, really well and develop an awesome friendship with them. The next three months passed quickly and soon it was time for Jessica’s graduation. So I flew back east to meet up with her parents and we began our post boot camp vacation road trip from South Carolina to Universal Studios Florida and then back up to North Carolina. It was a magical time and it was during this trip that I discovered and solidified my belief that I wanted to spend the rest of my life with her. And so, the very next weekend back in Boise, I started looking for rings and trying to figure out how I would survive asking her father’s permission to marry his one and only daughter.
-	Asking Scott for his blessing to marry his daughter was an adventure in and of itself. Realistically I probably shouldn’t have been that nervous I mean, her mother helped with picking out the ring so I should have known I was going to be good, right? Wrong. Scott was the X Factor in all of this, and I had no idea what he would make me do to gain his blessing, especially since I wasn’t able to fly out to North Carolina to ask in person.  So we arranged to talk one evening on Skype, and I will forever remember how that evening felt. You see, Scott had set it up so that when he answered my call, the back of his computer chair was to the screen and, just like re-enacting a scene from Inspector Gadget with Dr. Claw, he slowly spins around pretending to pet a cat and answers with “Yeeeeesssssss?” I had no idea what to say, I mean I was expecting something… but not that!!  So in a halting fashion I manage to stammer out my request for his blessing in marrying his daughter. He stared at me for a few minutes and then replied: “I see. Well I have a few questions for you.”  From this point he proceeded to ask questions of the strangest sort. For example, one of the questions he asked was: “Paper or Plastic?”  He would then respond to my answers as if they had a hidden implication. This went on for thirty or forty minutes until I was rescued by both his mother and his wife who said something along the lines of: “SCOTT ALLEN HALE! You’ve asked enough questions; we like him so you tell him YES right now!”  That’s right folks, I might have cheated a little bit and got Jessica’s Mom and Oma recruited to my cause, and while fortune may favor the bold, I prefer to be prepared! Eventually Scott did give me his blessing and the planning for a proposal began.</p>
+Jess and I had lots of fun together doing everything from card and board games with her family to long motorcycle rides, and of course video games, but always I held back a little bit, believing things that were too good had to end, right? Well, then she dropped the bomb. Her dream had always been to serve her country, like her father before her and then her brother, and she was going to join the Marines. I'll be honest: I had no idea how to process that or what it would mean for us as a couple. The one thing I did know, was that I had to help, I had to support her. So the following week I began training her at the gym in the early morning hours and the weeks flew by. Pretty soon it was time for her to ship out to boot camp and we said one of the hardest goodbyes I’ve ever had to say.<br/><br/>
+	At the beginning I had told her not to expect too much from me letter wise, but pretty soon I found myself writing each day and it was here in almost journal-like fashion that I was finally able to say the things I hadn’t been able to say out loud to her, let alone to myself. It was also during this time that I got to know Rita and Scott, Jessica’s parents, really well and develop an awesome friendship with them. The next three months passed quickly and soon it was time for Jessica’s graduation. So I flew back east to meet up with her parents and we began our post boot camp vacation road trip from South Carolina to Universal Studios Florida and then back up to North Carolina. It was a magical time and it was during this trip that I discovered and solidified my belief that I wanted to spend the rest of my life with her. And so, the very next weekend back in Boise, I started looking for rings and trying to figure out how I would survive asking her father’s permission to marry his one and only daughter.<br/><br/>
+	Asking Scott for his blessing to marry his daughter was an adventure in and of itself. Realistically I probably shouldn’t have been that nervous I mean, her mother helped with picking out the ring so I should have known I was going to be good, right? Wrong. Scott was the X Factor in all of this, and I had no idea what he would make me do to gain his blessing, especially since I wasn’t able to fly out to North Carolina to ask in person.  So we arranged to talk one evening on Skype, and I will forever remember how that evening felt. You see, Scott had set it up so that when he answered my call, the back of his computer chair was to the screen and, just like re-enacting a scene from Inspector Gadget with Dr. Claw, he slowly spins around pretending to pet a cat and answers with “Yeeeeesssssss?” I had no idea what to say, I mean I was expecting something… but not that!!  So in a halting fashion I manage to stammer out my request for his blessing in marrying his daughter. He stared at me for a few minutes and then replied: “I see. Well I have a few questions for you.”  From this point he proceeded to ask questions of the strangest sort. For example, one of the questions he asked was: “Paper or Plastic?”  He would then respond to my answers as if they had a hidden implication. This went on for thirty or forty minutes until I was rescued by both his mother and his wife who said something along the lines of: “SCOTT ALLAN HALE! You’ve asked enough questions; we like him so you tell him YES right now!”  That’s right folks, I might have cheated a little bit and got Jessica’s Mom and Oma recruited to my cause, and while fortune may favor the bold, I prefer to be prepared! Eventually Scott did give me his blessing and the planning for a proposal began.</p>
                <h3 class="fancy-text">Her Story</h3>
                <p class="lead">TODO ...</p>
              </div><!--/.col-xs-12 -->
@@ -143,7 +227,7 @@ Jess and I had lots of fun together doing everything from card and board games w
                <hr class="style17">
                <p class="lead">This will be a two-part event with the Ceremony occurring at the Multnomah Falls Lodge and the Reception happening in the heart of Portland. Our wedding theme is Steampunk featuring Neo-Victorian attire. As this is occurring on Halloween, we encourage everyone to dress in costumes if they wish, though costumes are not required to match our theme, we do ask that they be tasteful and appropriate for a family enviorment.  Below you will find details for the individual events.</p>
                <h3 class="fancy-text">Wedding</h3>
-               <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi.</p>
+               <p class="lead">The wedding ceremony will be held against the back drop of the majestic Multnomah Falls. The falls, and the lodge nearby, hold a special place in the heart of the Hale family, being the location of many a family trip. Jessica in particular fell in love with the beauty of the falls at a young age and has dreamed often of being wed there.</p>
                <div class="embed-responsive embed-responsive-16by9">
                  <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.6396953995063!2d-122.11963404892558!3d45.57768373378243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495eb1e6b48335d%3A0xd30bf1479ba5a2fa!2sMultnomah+Falls+Lodge!5e0!3m2!1sen!2sus!4v1459871924886" scrolling="no"></iframe>
                  </div>
@@ -156,7 +240,7 @@ Jess and I had lots of fun together doing everything from card and board games w
                </div>
                
                <br/>
-                                <p class="lead">Below we have listed some parking and hotel options near the venue. <b>Plaease Note</b> hotel options in the heart of Portland tend to be a bit more expensive so we’ve listed some options across the river and near the airport that are more affordable. There are deals occurring for lodging on a fairly regular base so we would recommend checking websites like Priceline or Orbitz for other options and the best pricing.</p>
+                                <p class="lead">Below we have listed some parking and hotel options near the venue.<br/><br/><b>Please Note: </b> hotel options in the heart of Portland tend to be a bit more expensive so we’ve listed some options across the river and near the airport that are more affordable. There are deals occurring for lodging on a fairly regular base so we would recommend checking websites like Priceline or Orbitz for other options and the best pricing.</p>
                                 <div class="row">
                                   <div class="col-md-6">
                                     <h4>Parking Options</h4>
@@ -190,7 +274,14 @@ Jess and I had lots of fun together doing everything from card and board games w
              <div class="col-sm-10 col-sm-offset-1 container-trans">
                <h1 class="text-center fancy-text">RSVP</h1>
                <hr class="style17">
-               <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+               <p class="lead">It is our hope that by giving everyone several months’ notice, more will be able to attend. However, we are aware that since this is occurring on a Monday, this may restrict some from joining us in person. We understand and in the event that you are unable to attend, please celebrate wherever you are!<br/><br/>
+As indicated above, this is a two-part event with the ceremony held at Multnomah Falls and the reception in downtown Portland. Unfortunately, the size of the venue at Multnomah limits the number of people we can have in attendance for the actual ceremony. Because of this limitation, we are specifically requesting people RSVP for the reception. As we get closer to the wedding date, and are able to solidify our numbers for attendance, we will be reaching out with regard to the ceremony itself. If you would prefer to only attend the reception, please indicate this in the “note” section of the RSVP.  We look forward to celebrating with everyone!
+<br/><br/>
+Wedding Theme: Steampunk
+Wedding Party Attire: Neo-Victorian
+Guests: Costumes are encouraged!
+<br/><br/>Please keep them appropriate for families. 
+</p>
                <div class='text-center'>
                  <a href="http://AllHaleMatsenWedding.rsvpify.com" target="_blank"><button class="btn btn-default btn-lg">RSVP HERE</button></a>
                </div>
@@ -228,7 +319,7 @@ Jess and I had lots of fun together doing everything from card and board games w
              <div class="col-sm-10 col-sm-offset-1 container-trans">
                <h1 class="text-center fancy-text">Contact Us</h1>
                <hr class="style17">
-               <p class="lead">Dolor sit amet, consectetur adipisicing elit. Id maxime repellat repellendus porro voluptas laudantium similique eveniet quis perferendis beatae commodi sunt ullam provident dolorum doloribus esse accusamus dolores. Corrupti.</p>
+               <p class="lead">Thank you for visiting our website! If you have any questions regarding the Ceremony, Reception, Gifts, or anything else related to this event, please fill out the form below and we will get a response to you as soon as possible! We look forward to seeing everyone on the 31st of October!</p>
                <div class="container">
                  <div class="row">
                    <div class="cform" id="contact-form">
@@ -333,6 +424,6 @@ Jess and I had lots of fun together doing everything from card and board games w
        </div>
        
 	</body>
-  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/navbar2.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
 </html>
