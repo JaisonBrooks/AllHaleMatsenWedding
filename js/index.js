@@ -121,5 +121,6 @@ $(function() {
 			$(this).html(result);});}});
 				return false;
 	});
-
+  // Fancybox
+  $(".fancybox").fancybox();
 });

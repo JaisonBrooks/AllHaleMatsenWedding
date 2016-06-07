@@ -11,6 +11,13 @@ h1.header {
   /* PURPLE MED 97, 31, 106 */
   color: rgb(128,75,135);
 }
+.navbar {
+  background: rgb(46, 1, 52) !important;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23) !important;
+}
+.navbar-brand {
+  font-size: 2em;
+}
 .crazy-text {
   font-family: 'Great Vibes', cursive !important;
 }
@@ -24,11 +31,11 @@ p {
   font-size: 21px !important;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  color: #9a9a9a;
+  color: #a4a4a4;
 }
 .container-padded {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 42px;
+  padding-bottom: 42px;
 }
 .fancy-text  {
   font-family: 'Tangerine', cursive !important;
