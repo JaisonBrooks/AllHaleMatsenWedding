@@ -1,5 +1,5 @@
 <?php
-define("WEBMASTER_EMAIL", '4bidd3n403+allhale@gmail.com');
+define("WEBMASTER_EMAIL", 'halematsenwedding@gmail.com');
 error_reporting (E_ALL ^ E_NOTICE);
 $post = (!empty($_POST)) ? true : false;
 if ($post) {
@@ -14,7 +14,7 @@ if ($post) {
       ."Reply-To: ".$email."\r\n"
       ."X-Mailer: PHP/" . phpversion());
     if ($mail) {
-      // header('Location: ' . $_SERVER['HTTP_REFERER'] . '?contact_us=true');
+      header('Location: ' . $_SERVER['HTTP_REFERER'] . '?contact_us=true');
       echo "OK";
     }
   }
