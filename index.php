@@ -269,14 +269,12 @@ Gifts can alternatively be sent to local stores for pick up in Jacksonville, NC 
                <p class="lead">Thank you for visiting our website! If you have any questions regarding the Ceremony, Reception, Gifts, or anything else related to this event, please fill out the form below and we will get a response to you as soon as possible! We look forward to seeing everyone on the 31st of October!</p>
                <div class="container">
                  <div class="row">
-                   <div class="cform" id="contact-form">
-                     <div class="col-sm-6 col-sm-offset-2">
-                       <div class="sendmessage" id="sendmessage" style="display:none; padding:24px; font-size: 18px;">
-                           Your message has been sent and we will get back to you shortly. Thank you!
-                        </div>
-                      </div>
-                    
-      	                <form method="post" role="form" class="contactForm" id="contactForm">
+                    <?php
+                    $action=$_REQUEST['action'];
+                    if ($action=="") { ?>
+      	                <form role="form" action="index.php#contact_us" class="contactForm" id="contactForm" method="POST" enctype="multipart/form-data">
+                          <input type='hidden' name='do' value='search' />
+                          <input type="hidden" name="action" value="submit">
                            <div class="col-sm-6 col-sm-offset-2">
                              <div class="form-group">
                                <label for="name">Your Name</label>
@@ -309,55 +307,33 @@ Gifts can alternatively be sent to local stores for pick up in Jacksonville, NC 
                              <div class="form-group">
                              <button type="submit" class="btn btn-default pull-left">SEND MESSAGE</button>
                            </div>
-                           </div>
-                       </form>
+                         </form>
+                         <br/>
+                         <?php
+                     } else { ?>
+                       <div class="col-sm-6 col-sm-offset-2">
+                         <h3 class="text-center fancy-text">
+                         <?php
+                           $name=$_REQUEST['name'];
+                           $email=$_REQUEST['email'];
+                           $subject_user=$_REQUEST['subject'];
+                           $message=$_REQUEST['message'];
+                           if (($name=="")||($email=="")||($message=="")||($subject_user==""))
+                               {
+                       		echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+                       	    }
+                           else{		
+                       	    $from="From: $name<$email>\r\nReturn-path: $email";
+                               $subject="HaleMatesenWedding.com | " + $subject_user ;
+                       		mail("halematsenwedding@gmail.com", $subject, $message, $from);
+                       		echo "Your email has been sent!"; ?>
+                       	 <?php   }
+                           }  ?>
+                        </h3>
+                     </div>
                    </div>
                  </div>
                </div>
-               <!-- <form role="form">
-                 <div class="container">
-                   <div class="row">
-                     <div class="col-sm-6 col-sm-offset-1">
-                       <div class="form-group">
-                         <label>Your Name</label>
-                         <input type="text" class="form-control" placeholder="Value" />
-                       </div>
-                     </div>
-                   </div>
-                   <div class="row">
-                     <div class="col-sm-6 col-sm-offset-1">
-                       <div class="form-group">
-                         <label>Your Email Address</label>
-                         <input type="email" class="form-control" placeholder="Value" />
-                       </div>
-                     </div>
-                   </div>
-                   <div class="row">
-                     <div class="col-sm-6 col-sm-offset-1">
-                       <div class="form-group">
-                         <label>Phone Number</label>
-                         <input type="text" class="form-control" placeholder="Value" />
-                       </div>
-                     </div>
-                   </div>
-                   <div class="row">
-                     <div class="col-sm-6 col-sm-offset-1">
-                       <div class="form-group">
-                         <label>Message</label>
-                         <textarea class="form-control"></textarea>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="row">
-                     <div class="col-sm-6 col-sm-offset-1">
-                       <div class="form-group">
-                         <button type="submit" class="btn btn-default btn-lg">Submit</button>
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-                 <br/>
-               </form> -->
              </div><!--/.col-xs-12 -->
            </div><!--/.row -->
          </div>

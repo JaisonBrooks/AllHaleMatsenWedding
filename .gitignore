@@ -1,2 +1,2 @@
-.hidden
-.hidden/*
+./deploy.rb
+deploy.rb
